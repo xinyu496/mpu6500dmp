@@ -300,6 +300,7 @@ int main()
   do {
     ret=MPU6050_DMP_init();//DMP初始化
   } while (ret);
+  while(1);
 //	TIM_SetCompare1(TIM3,(u32)0);	//修改比较值，修改占空比  右侧   
 //    TIM_SetCompare2(TIM3,(u32)0);	//修改比较值，修改占空比  左侧
   while(1)
